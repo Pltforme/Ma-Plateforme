@@ -62,20 +62,11 @@ Le projet utilise une base MySQL dont les tables principales sont :
 - `contenir` : liaison entre commandes et articles
 - `article` : catalogue des articles
 
-## Bonnes pratiques
 
-- Ne pas modifier les données de production sans sauvegarde
-- Toujours tester les modifications sur un environnement local
-- Valider les entrées utilisateur avant enregistrement
-
-## Remarques
-
-Ce projet est conçu pour une utilisation locale dans XAMPP. Si vous souhaitez le déployer sur un serveur externe, adaptez les paramètres de connexion et les chemins d’accès.
-
-![alt text](assets/images/acceuil.png)
-![alt text](assets/images/listeUtilisateurs.png)
-![alt text](assets/images/listeClients.png)
-![alt text](assets/images/listeArticle.png)
-![alt text](assets/images/ajouterArticle.png)
-![alt text](assets/images/listeVentes.png)
-![alt text](assets/images/effectuerVente.png)
+![Page d'acceuil](assets/images/acceuil.png)
+![Page de la liste des utilisateurs](assets/images/listeUtilisateurs.png)
+![Page de la liste des clients](assets/images/listeClients.png)
+![Page de la liste des articles](assets/images/listeArticle.png)
+![Page d'ajout d'article](assets/images/ajouterArticle.png)
+![Page de la liste des ventes](assets/images/listeVentes.png)
+![Page d'ajout d'une vente](assets/images/effectuerVente.png)
