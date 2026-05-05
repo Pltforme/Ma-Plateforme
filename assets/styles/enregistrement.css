@@ -1,0 +1,76 @@
+/* Style pour enregistrement.php */
+:root {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f7fb;
+    color: #102a43;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 28px;
+    background: linear-gradient(180deg, #f9fafb 0%, #dbeafe 100%);
+}
+
+.container {
+    width: min(780px, 100%);
+    background: #ffffff;
+    border-radius: 26px;
+    box-shadow: 0 20px 38px rgba(15, 23, 42, 0.1);
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    padding: 34px;
+}
+
+.form-section {
+    display: grid;
+    gap: 20px;
+}
+
+.success,
+.error {
+    padding: 20px 22px;
+    border-radius: 18px;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.success {
+    background: #ecfdf5;
+    color: #115e2b;
+    border-color: #bbf7d0;
+}
+
+.error {
+    background: #fef2f2;
+    color: #991b1b;
+    border-color: #fecaca;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+a.button-link {
+    padding: 14px 20px;
+    border-radius: 14px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+}
+
+a.button-link:hover {
+    background: #1e40af;
+}
+
+@media (max-width: 620px) {
+    .container {
+        padding: 24px;
+    }
+}

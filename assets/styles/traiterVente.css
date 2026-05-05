@@ -1,0 +1,133 @@
+/* Style pour traiterVente.php */
+:root {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #0f172a;
+    background: #f7fbff;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 28px;
+    background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+.container {
+    width: min(600px, 100%);
+    background: rgba(255, 255, 255, 0.98);
+    border-radius: 28px;
+    box-shadow: 0 24px 60px rgba(15, 23, 42, 0.14);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    padding: 40px;
+}
+
+.success-box,
+.error-box {
+    padding: 28px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.success-box {
+    background: #ecfdf5;
+    border: 2px solid #bbf7d0;
+    color: #115e2b;
+}
+
+.success-box h2 {
+    margin: 0 0 16px;
+    font-size: 1.8rem;
+}
+
+.error-box {
+    background: #fef2f2;
+    border: 2px solid #fecaca;
+    color: #991b1b;
+}
+
+.error-box h2 {
+    margin: 0 0 16px;
+    font-size: 1.8rem;
+}
+
+.success-box p,
+.error-box p {
+    margin: 12px 0;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+    margin-top: 28px;
+}
+
+.btn-link {
+    padding: 12px 24px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.success-box .btn-link {
+    background: #10b981;
+    color: white;
+}
+
+.success-box .btn-link:hover {
+    transform: translateY(-1px);
+    background: #059669;
+    box-shadow: 0 12px 24px rgba(16, 185, 129, 0.3);
+}
+
+.success-box .btn-link.secondary {
+    background: #d1fae5;
+    color: #047857;
+}
+
+.success-box .btn-link.secondary:hover {
+    background: #a7f3d0;
+}
+
+.error-box .btn-link {
+    background: #ef4444;
+    color: white;
+}
+
+.error-box .btn-link:hover {
+    transform: translateY(-1px);
+    background: #dc2626;
+    box-shadow: 0 12px 24px rgba(239, 68, 68, 0.3);
+}
+
+@media (max-width: 620px) {
+    .container {
+        padding: 24px;
+    }
+
+    .success-box,
+    .error-box {
+        padding: 20px;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+
+    .btn-link {
+        width: 100%;
+    }
+}
