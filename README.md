@@ -66,7 +66,7 @@ Le projet utilise une base MySQL dont les tables principales sont :
 ![Page d'acceuil](assets/images/acceuil.png)
 ![Page de la liste des utilisateurs](assets/images/listeUtilisateurs.png)
 ![Page de la liste des clients](assets/images/listeClients.png)
-![Page de la liste des articles](assets/images/listeArticle.png)
+![Page de la liste des articles](assets/images/listeArticles.png)
 ![Page d'ajout d'article](assets/images/ajouterArticle.png)
 ![Page de la liste des ventes](assets/images/listeVentes.png)
 ![Page d'ajout d'une vente](assets/images/effectuerVente.png)
