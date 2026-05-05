@@ -71,3 +71,11 @@ Le projet utilise une base MySQL dont les tables principales sont :
 ## Remarques
 
 Ce projet est conçu pour une utilisation locale dans XAMPP. Si vous souhaitez le déployer sur un serveur externe, adaptez les paramètres de connexion et les chemins d’accès.
+
+![alt text](assets/images/acceuil.png)
+![alt text](assets/images/listeUtilisateurs.png)
+![alt text](assets/images/listeClients.png)
+![alt text](assets/images/listeArticle.png)
+![alt text](assets/images/ajouterArticle.png)
+![alt text](assets/images/listeVentes.png)
+![alt text](assets/images/effectuerVente.png)
